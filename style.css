@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    
+}
+.color{
+    height: 60px;
+    width: 60px;
+    margin: 22px;
+    border-radius: 10px;
+    
+}
+.color:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: .6s;
+}
+.options {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  justify-items: center;
+  align-items: center;
+}
+#box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 195, 195);
+    /* width: 240px; */
+    padding: 12px;
+    border-radius: 12px;
+
+}
+.respart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
